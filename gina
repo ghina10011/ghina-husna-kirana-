@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Biodata Unik Sandrina Michelle</title>
+    <style>
+        body {
+            font-family: 'sans, cursive;
+            background: linear-gradient(135deg, #ffb6c1, #ffe4e1);
+            text-align: center;
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            width: 350px;
+            margin: auto;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            padding: 20px;
+        }
+
+        img {
+            width: 150px;
+            border-radius: 50%;
+            border: 5px solid pink;
+        }
+
+        h1 {
+            color: #ff1493;
+        }
+
+        .info {
+            text-align: left;
+            margin-top: 15px;
+        }
+
+        .info p {
+            background: #fff0f5;
+            padding: 8px;
+            border-radius: 10px;
+            margin: 6px 0;
+        }
+
+        button {
+            margin-top: 15px;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 20px;
+            background: #ff69b4;
+            color: white;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #ff1493;
+        }
+
+        .alasan {
+            display: none;
+            margin-top: 15px;
+            background: #ffe4e1;
+            padding: 10px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h1> Sandrina Michelle </h1>
+
+        <!-- Ganti link foto sesuai kebutuhan -->
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6NPgczhqQ9jciOrzOKI8_hsz2xJKal_8V_GU1neVn8Q&s=10">
+
+        <div class="info">
+            <p> Nama: Sandrina Michelle</p>
+            <p>
+             Umur: 17 tahun</p>
+            <p> TTL: Jakarta, 11 Januari 2007</p>
+            <p> Drama yang Pernah Diperankan:</p>
+            <ul>
+                <li>Dari Jendela SMP</li>
+                <li>Si Doel The Series</li>
+                <li>(Drakor impian ): Main bareng Oppa Korea</li>
+            </ul>
+            <p> Bakat akting yang menonjol
+Sandrina dikenal punya kemampuan akting yang natural dan emosional, meskipun usianya masih muda.
+Prestasi sejak kecil
+Ia sudah terjun ke dunia hiburan sejak dini dan konsisten menunjukkan perkembangan karier yang positif.
+Kerja keras dan disiplin
+Banyak penggemar melihat Sandrina sebagai contoh anak muda yang serius menekuni passion-nya dan bertanggung jawab dengan pekerjaannya.
+Kepribadian yang positif
+Di berbagai wawancara dan media sosial, ia sering terlihat sopan, rendah hati, dan menghargai orang lain—ini membuatnya mudah disukai.
+Inspiratif bagi remaja
+Sandrina sering dianggap bisa memotivasi remaja untuk percaya diri, berani bermimpi, dan berusaha meraih cita-cita.
+ </p> 
+            
+        </div>
+
+        <button onclick="tampilAlasan()">Kenapa Aku Mengidolakannya? </button>
+
+        <div class="alasan" id="alasan">
+            <p>✨ Alasan Mengidolakan Sandrina Michelle:</p>
+            <ul>
+                <li>Aktingnya natural dan bikin baper</li>
+                <li>Kepribadiannya ramah dan rendah hati</li>
+                <li>Berbakat sejak kecil</li>
+                <li>Jadi inspirasi anak muda untuk tetap berkarya</li>
+                <li>Cantik, imut, dan penuh senyum </li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        function tampilAlasan() {
+            document.getElementById("alasan").style.display = "block";
+        }
+    </script>
+
+</body>
+</html>
